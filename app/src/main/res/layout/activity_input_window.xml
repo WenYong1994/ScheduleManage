@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransparency_5"
+    tools:context=".activity.InputDialog.InputWindowActivity"
+    android:id="@+id/m_root_view"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/r_10_dialog_bg"
+        >
+        <EditText
+            android:id="@+id/app_widget_content_edit"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/colorTransparency"
+            />
+
+        <Button
+            android:id="@+id/app_widget_confirm_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="说话"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

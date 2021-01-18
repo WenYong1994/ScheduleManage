@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_schedule_item_name">#252526</color>
+    <color name="color_schedule_item_data">#A6A6A7</color>
+    <color name="color_schedule_item_not_show">#EEEEEF</color>
+    <color name="color_schedule_item_left_few">#FDAF02</color>
+    <color name="color_schedule_item_left_more">#607EDE</color>
+    <color name="color_schedule_item_right_few">#04CD8F</color>
+    <color name="color_schedule_item_right_more">#FB732D</color>
+    <color name="color_schedule_item_drag_bg">#ECECED</color>
+    <color name="color_schedule_item_is_draging_bg">#FFFFFF</color>
+
+    <color name="test">#7F9DFF</color>
+</resources>

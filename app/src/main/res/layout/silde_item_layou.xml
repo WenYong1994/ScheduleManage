@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.weny.uilibrary.customview.sidesliplist.sliderecyclerview.SlideMenuView
+   android:id="@+id/slide_menu_view"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_marginBottom="1dp"
+   android:layout_height="50dp" />

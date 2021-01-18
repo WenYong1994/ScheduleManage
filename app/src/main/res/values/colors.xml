@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="colorBlue">#ff0004FF</color>
+    <color name="colorAccent50A">#80D81B60</color>
+    <color name="colorTransparency">#00000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+
+    <color name="colorTransparency_5">#77000000</color>
+
+
+
+
+    <!--not need replace skin start-->
+
+    <color name="colorBlackTitle">#000000</color>
+
+    <color name="calendar_normal_day_text_color">#000000</color>
+    <color name="calendar_selected_text_color">#ffffff</color>
+    <color name="calendar_selected_circle_color">#000000</color>
+    <color name="calendar_selected_circle_today_color">#607EDE</color>
+    <color name="calendar_lunar_normal_text_color">#C2C2C3</color>
+    <color name="calendar_today_text_color">#607EDD</color>
+    <color name="calendar_whole_month_text_color">#DFBB52</color>
+    <color name="calendar_whole_week_text_color">#DFBB52</color>
+    <color name="calendar_hint_circle_color">#C7CFF3</color>
+    <color name="calendar_last_or_next_month_text_color">#D0D0D1</color>
+
+    <color name="test_color">#607EDE</color>
+
+    <!--not need replace skin end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- need replace skin start-->
+
+    <color name="color_view_bg">#ff00ff</color>
+
+    <color name="color_text_view_color">#0ff000</color>
+
+    <!-- need replace skin end -->
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignWithParentIfMissing="true"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/title_rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:gravity="center_vertical"
+                >
+                <TextView
+                    android:id="@+id/data_title"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="七月"
+                    android:textColor="@color/colorBlackTitle"
+                    android:textSize="@dimen/calendar_title_text_size"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <FrameLayout
+                    android:id="@+id/current_data_fra"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="15dp"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/calendar_data_icon"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/data_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="10dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="12dp"
+                        />
+
+
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/calendar_type_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/calendar_type_list"
+                    android:padding="12dp"
+                    android:layout_marginRight="5dp"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/calendar_menu_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/menu_icon"
+                    android:padding="15dp"
+                    android:layout_marginRight="4dp"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <com.jeek.calendar.widget.calendar.WeekBarView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/week_bar_height"
+            app:week_text_size="13dp"
+            app:week_day_off_text_color="#E1B040"
+            app:week_workday_text_color="#B2B2B3"
+            />
+
+        <com.jeek.calendar.widget.calendar.schedule.ScheduleLayout
+            android:id="@+id/slSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:auto_change_month_row="false"
+            app:default_view="month"
+            android:clipChildren="false"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/rlMonthCalendar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.jeek.calendar.widget.calendar.month.MonthCalendarView
+                            android:id="@+id/mcvCalendar"
+                            android:visibility="visible"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/month_calendar_height"
+                            android:overScrollMode="never"
+                            app:month_day_text_size="13dp"
+                            app:month_day_lunar_text_size="8dp"
+                            app:month_lunar_solar_text_space_size="1dp"
+                            app:month_normal_day_text_color="@color/calendar_normal_day_text_color"
+                            app:month_selected_text_color="@color/calendar_selected_text_color"
+                            app:month_selected_circle_color="@color/calendar_selected_circle_color"
+                            app:month_selected_circle_today_color="@color/calendar_selected_circle_today_color"
+                            app:month_lunar_normal_text_color="@color/calendar_lunar_normal_text_color"
+                            app:month_today_text_color="@color/calendar_today_text_color"
+                            app:month_whole_month_text_color="@color/calendar_whole_month_text_color"
+                            app:month_whole_week_text_color="@color/calendar_whole_week_text_color"
+                            app:month_hint_circle_color="@color/calendar_hint_circle_color"
+                            app:month_last_or_next_month_text_color="@color/calendar_last_or_next_month_text_color"
+                            app:month_show_holiday_hint="false"
+                            app:month_show_whole_month="true"
+                            app:month_show_whole_week="true"
+                            app:month_show_lunar="true"
+                            app:month_show_task_hint="false"
+                            />
+
+                    </RelativeLayout>
+
+                    <com.jeek.calendar.widget.calendar.week.WeekCalendarView
+                        android:id="@+id/wcvCalendar"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/week_calendar_height"
+                        android:overScrollMode="never"
+
+                        app:week_day_text_size="13dp"
+                        app:week_day_lunar_text_size="8dp"
+                        app:week_lunar_solar_text_space_size="1dp"
+                        app:week_normal_day_text_color="@color/calendar_normal_day_text_color"
+                        app:week_selected_text_color="@color/calendar_selected_text_color"
+                        app:week_selected_circle_color="@color/calendar_selected_circle_color"
+                        app:week_selected_circle_today_color="@color/calendar_selected_circle_today_color"
+                        app:week_lunar_normal_text_color="@color/calendar_lunar_normal_text_color"
+                        app:week_today_text_color="@color/calendar_today_text_color"
+                        app:week_whole_month_text_color="@color/calendar_whole_month_text_color"
+                        app:week_whole_week_text_color="@color/calendar_whole_week_text_color"
+                        app:week_hint_circle_color="@color/calendar_hint_circle_color"
+                        app:week_show_holiday_hint="false"
+                        app:week_show_whole_month="true"
+                        app:week_show_whole_week="true"
+                        app:week_show_lunar="true"
+                        app:week_show_task_hint="false"
+                        app:week_holiday_color="@color/holiday_text_color"
+
+
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlScheduleList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorWhite"
+                    android:clipChildren="false"
+                    >
+
+                    <com.example.weny.schedulemanagecopy.customview.ScheduleListView
+                        android:id="@+id/schedule_list_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:orientation="vertical"
+                        android:overScrollMode="never"
+                        android:paddingTop="6dp"
+                        android:clipChildren="false"
+                        />
+
+                    <RelativeLayout
+                        android:id="@+id/rlNoTask"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="50dp"
+                            android:src="@mipmap/bg_no_task"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </com.jeek.calendar.widget.calendar.schedule.ScheduleLayout>
+
+    </LinearLayout>
+
+
+    <com.example.weny.schedulemanagecopy.customview.ChangeDateScheduleVew
+        android:id="@+id/change_data_fra"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        />
+
+
+</FrameLayout>

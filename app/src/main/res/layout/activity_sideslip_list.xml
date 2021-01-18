@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/m_root_view"
+android:background="@color/colorWhite"
+android:clipChildren="false"
+tools:context=".activity.sidesliplist.SideslipListActivity">
+
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#E05A5A"
+        />
+
+
+    <com.example.weny.schedulemanagecopy.customview.ScheduleListView
+        android:id="@+id/schedule_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:layout_marginTop="170dp"/>
+
+
+
+
+</FrameLayout>
+
+
+
+</RelativeLayout>

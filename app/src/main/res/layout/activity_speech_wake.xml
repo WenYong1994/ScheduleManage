@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/m_root_view"
+    android:background="@color/colorWhite"
+    android:clipChildren="false"
+    tools:context=".activity.sidesliplist.SideslipListActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+
+        <Button
+            android:id="@+id/wake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始"
+            />
+
+
+        <Button
+            android:id="@+id/ansy_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传联系人"
+            android:layout_marginLeft="120dp"
+            />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            />
+
+
+        <TextView
+            android:id="@+id/contact_tv"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="150dp"
+            />
+        <TextView
+            android:id="@+id/ansy_contact_tv"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="300dp"
+            />
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

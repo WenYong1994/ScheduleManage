@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ScheduleManageCopy.iml" filepath="$PROJECT_DIR$/ScheduleManageCopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ScheduleManageCopy.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ScheduleManageCopy.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendar/ScheduleManageCopy.calendar.iml" filepath="$PROJECT_DIR$/.idea/modules/calendar/ScheduleManageCopy.calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/ScheduleManageCopy.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/ScheduleManageCopy.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skin_module/ScheduleManageCopy.skin_module.iml" filepath="$PROJECT_DIR$/.idea/modules/skin_module/ScheduleManageCopy.skin_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/speech_recognition/ScheduleManageCopy.speech_recognition.iml" filepath="$PROJECT_DIR$/.idea/modules/speech_recognition/ScheduleManageCopy.speech_recognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/uilibrary/ScheduleManageCopy.uilibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/uilibrary/ScheduleManageCopy.uilibrary.iml" />
+    </modules>
+  </component>
+</project>

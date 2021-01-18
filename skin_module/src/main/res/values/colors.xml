@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="calendar_bg_color">#00ff00</color>
+    <color name="holiday_text_color">#00ff00</color>
+    <color name="select_circle_color">#00ff00</color>
+    <color name="colorBackground">#00ff00</color>
+
+    <color name="colorPrimary">#00ff00</color>
+    <color name="colorPrimaryDark">#00ff00</color>
+    <color name="colorAccent">#00ff00</color>
+
+
+    <color name="test_color">#000000</color>
+
+    <color name="color_view_bg">#000000</color>
+
+    <color name="color_text_view_color">#000000</color>
+
+
+    <!--<color name="color_view_bg">#E400FF</color>-->
+
+    <!--<color name="color_text_view_color">#B30D7C</color>-->
+
+
+    <!--<color name="color_view_bg">#03FFE5</color>-->
+
+    <!--<color name="color_text_view_color">#FFF100</color>-->
+
+    <!--<color name="color_view_bg">#0800FF</color>-->
+
+    <!--<color name="color_text_view_color">#F50000</color>-->
+
+
+    <!--<color name="color_view_bg">#ff00ff</color>-->
+
+    <!--<color name="color_text_view_color">#0ff000</color>-->
+
+
+
+</resources>

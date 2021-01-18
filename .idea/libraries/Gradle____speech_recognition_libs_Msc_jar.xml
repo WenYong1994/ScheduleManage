@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./speech_recognition/libs/Msc.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/speech_recognition/libs/Msc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

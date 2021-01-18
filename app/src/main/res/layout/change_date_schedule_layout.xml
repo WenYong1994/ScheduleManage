@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_fra"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@mipmap/schedule_comple_flase"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:textSize="18dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/color_schedule_item_name"
+        android:layout_marginLeft="39dp"
+        android:paddingStart="30dp"
+        android:layout_gravity="center_vertical"
+        android:lines="1"
+        tools:ignore="RtlSymmetry" />
+    <TextView
+        android:id="@+id/data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="今天"
+        android:textSize="15dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/color_schedule_item_data"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginLeft="150dp"
+
+        />
+
+</FrameLayout>

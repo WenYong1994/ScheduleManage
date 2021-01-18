@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gyf.immersionbar:immersionbar:2.3.3-beta09@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b284c5f7ec1467bbee553daf14a8a89/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7b284c5f7ec1467bbee553daf14a8a89/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Gradle/caches/transforms-2/files-2.1/35a00d100bf41df79da6eebd43d2af3a/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/caches/transforms-2/files-2.1/35a00d100bf41df79da6eebd43d2af3a/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../../Gradle/caches/transforms-2/files-2.1/35a00d100bf41df79da6eebd43d2af3a/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gyf.immersionbar/immersionbar/2.3.3-beta09/33c451eeea43811c86bc35e47037d06b166ff427/immersionbar-2.3.3-beta09-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../Gradle/caches/modules-2/files-2.1/com.gyf.immersionbar/immersionbar/2.3.3-beta09/33c451eeea43811c86bc35e47037d06b166ff427/immersionbar-2.3.3-beta09-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

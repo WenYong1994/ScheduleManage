@@ -1,0 +1,1 @@
+include ':app', ':calendar', ':common', ':uilibrary', ':skin_module', ':speech_recognition'
